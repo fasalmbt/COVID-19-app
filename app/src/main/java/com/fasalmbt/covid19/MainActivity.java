@@ -26,14 +26,10 @@ public class MainActivity
 		super.onCreate(savedInstanceState); 
 		setContentView(R.layout.activity_main); 
 
-		total_cases
-			= findViewById(R.id.total_cases);
-		today_cases
-			= findViewById(R.id.today_cases);
-		recovered
-				= findViewById(R.id.recovered);
-		deaths
-				= findViewById(R.id.deaths);
+		total_cases = findViewById(R.id.total_cases);
+		today_cases = findViewById(R.id.today_cases);
+		recovered = findViewById(R.id.recovered);
+		deaths = findViewById(R.id.deaths);
 		today_deaths = findViewById(R.id.today_deaths);
 		active = findViewById(R.id.active);
 		critical = findViewById(R.id.critical);
@@ -46,46 +42,22 @@ public class MainActivity
 	{
 		String url = "https://disease.sh/v3/covid-19/all";
 
-		StringRequest request 
-			= new StringRequest( 
-				Request.Method.GET, 
-				url, 
-				new Response.Listener<String>() { 
+		StringRequest request = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
 					@Override
 					public void onResponse(String response) 
 					{ 
 
 						try { 
 
-							JSONObject jsonObject 
-								= new JSONObject( 
-									response.toString());
-							countries.setText(
-									jsonObject.getString(
-											"affectedCountries"));
-							total_cases.setText(
-								jsonObject.getString( 
-									"cases")); 
-							today_cases.setText(
-								jsonObject.getString( 
-									"todayCases"));
-							recovered.setText(
-								jsonObject.getString( 
-									"recovered"));
-							deaths.setText(
-								jsonObject.getString( 
-									"deaths"));
-							today_deaths.setText(
-									jsonObject.getString(
-											"todayDeaths"
-									)
-							);
-							active.setText(
-									jsonObject.getString(
-											"active"));
-							critical.setText(
-									jsonObject.getString(
-											"critical"));
+							JSONObject jsonObject = new JSONObject(response.toString());
+							countries.setText(jsonObject.getString("affectedCountries"));
+							total_cases.setText(jsonObject.getString("cases"));
+							today_cases.setText(jsonObject.getString("todayCases"));
+							recovered.setText(jsonObject.getString("recovered"));
+							deaths.setText(jsonObject.getString("deaths"));
+							today_deaths.setText(jsonObject.getString("todayDeaths"));
+							active.setText(jsonObject.getString("active"));
+							critical.setText(jsonObject.getString("critical"));
 
 						} 
 						catch (JSONException e) { 
@@ -105,8 +77,7 @@ public class MainActivity
 					} 
 				}); 
 
-		RequestQueue requestQueue 
-			= Volley.newRequestQueue(this); 
+		RequestQueue requestQueue = Volley.newRequestQueue(this);
 		requestQueue.add(request); 
 	} 
 } 

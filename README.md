@@ -1,4 +1,6 @@
 # COVID-19-app
-Just another app for covid 19 global cases tracking
 
-Apk can be found <a href="https://github.com/fasalmbt/COVID-19-app/blob/main/covid19.apk">here</a>
+ലോകത്തെ കോവിഡ് ലോകത്തെ രോഗത്തിന്റെ സ്ഥിതി വിവര രോഗത്തിന്റെ അറിയുവാൻയി മലയാളീകരിച്ച ആൻഡ്രോയിഡ് അപ്പ്ലികേഷൻ ആണിത്.
+
+കൂടുതൽ ഫീച്ചറുകൾ ചേർക്കാനയി പൂൾ റീ‍ക്വെസ്റ്റ് ചെയ്യുക.
+

@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffe6ff"
+    android:background="#ffffff"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Global status"
+            android:text="ആഗോള നില"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textColor="#6699ff"
@@ -33,9 +33,9 @@
             android:layout_marginTop="20dp"
             android:fontFamily="sans-serif-condensed-medium"
             android:gravity="center_horizontal"
-            android:text="Countries effected"
+            android:text="ബാധിച്ച രാജ്യങ്ങൾ"
             android:textAlignment="center"
-            android:textSize="30sp"
+            android:textSize="22sp"
             android:textStyle="bold" />
 
         <TextView
@@ -55,10 +55,10 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-condensed-medium"
             android:layout_marginTop="20dp"
-            android:text="Total Cases"
+            android:text="മൊത്തം കേസുകൾ"
             android:textAlignment="center"
             android:textStyle="bold"
-            android:textSize="30sp"
+            android:textSize="22sp"
             android:gravity="center_horizontal" />
 
         <TextView
@@ -78,10 +78,10 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-condensed-medium"
             android:layout_marginTop="20dp"
-            android:text="Today Cases"
+            android:text="ഇന്നത്തെ കേസുകൾ"
             android:textAlignment="center"
             android:textStyle="bold"
-            android:textSize="30sp"
+            android:textSize="22sp"
             android:gravity="center_horizontal" />
 
         <TextView
@@ -100,10 +100,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-condensed-medium"
-            android:text="Recovered"
+            android:text="ഭേദമായവർ"
             android:textAlignment="center"
             android:textStyle="bold"
-            android:textSize="30sp"
+            android:textSize="22sp"
             android:gravity="center_horizontal" />
 
         <TextView
@@ -124,9 +124,9 @@
             android:layout_marginTop="20dp"
             android:fontFamily="sans-serif-condensed-medium"
             android:gravity="center_horizontal"
-            android:text="Deaths"
+            android:text="മരണം"
             android:textAlignment="center"
-            android:textSize="30sp"
+            android:textSize="22sp"
             android:textStyle="bold" />
 
         <TextView
@@ -147,9 +147,9 @@
             android:layout_marginTop="20dp"
             android:fontFamily="sans-serif-condensed-medium"
             android:gravity="center_horizontal"
-            android:text="Today Deaths"
+            android:text="ഇന്നത്തെ മരണം"
             android:textAlignment="center"
-            android:textSize="30sp"
+            android:textSize="22sp"
             android:textStyle="bold" />
 
         <TextView
@@ -170,9 +170,9 @@
             android:layout_marginTop="20dp"
             android:fontFamily="sans-serif-condensed-medium"
             android:gravity="center_horizontal"
-            android:text="Active cases"
+            android:text="നിലവിൽ രോഗമുള്ളവർ"
             android:textAlignment="center"
-            android:textSize="30sp"
+            android:textSize="22sp"
             android:textStyle="bold" />
 
         <TextView
@@ -193,9 +193,9 @@
             android:layout_marginTop="20dp"
             android:fontFamily="sans-serif-condensed-medium"
             android:gravity="center_horizontal"
-            android:text="Critical cases"
+            android:text="അത്യാസന നിലയിൽ ഉള്ളവർ"
             android:textAlignment="center"
-            android:textSize="30sp"
+            android:textSize="22sp"
             android:textStyle="bold" />
 
         <TextView

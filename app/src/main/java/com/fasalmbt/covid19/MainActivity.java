@@ -18,7 +18,7 @@ import org.json.JSONObject;
 
 public class MainActivity 
 	extends AppCompatActivity {
-	TextView total_cases,today_cases,recovered,deaths,today_deaths,active,critical,countries;
+	TextView total_cases,today_cases,recovered,today_recovered,deaths,today_deaths,active,critical,countries;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) 
@@ -29,6 +29,7 @@ public class MainActivity
 		total_cases = findViewById(R.id.total_cases);
 		today_cases = findViewById(R.id.today_cases);
 		recovered = findViewById(R.id.recovered);
+		today_recovered = findViewById(R.id.today_recovered);
 		deaths = findViewById(R.id.deaths);
 		today_deaths = findViewById(R.id.today_deaths);
 		active = findViewById(R.id.active);
@@ -54,6 +55,7 @@ public class MainActivity
 							total_cases.setText(jsonObject.getString("cases"));
 							today_cases.setText(jsonObject.getString("todayCases"));
 							recovered.setText(jsonObject.getString("recovered"));
+							today_recovered.setText(jsonObject.getString("todayRecovered"));
 							deaths.setText(jsonObject.getString("deaths"));
 							today_deaths.setText(jsonObject.getString("todayDeaths"));
 							active.setText(jsonObject.getString("active"));

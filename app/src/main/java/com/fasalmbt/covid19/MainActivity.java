@@ -70,15 +70,14 @@ public class MainActivity
 				new Response.ErrorListener() { 
 					@Override
 					public void onErrorResponse(VolleyError error)
-					{ 
-						Toast.makeText( 
-								MainActivity.this, 
-								error.getMessage(), 
-								Toast.LENGTH_SHORT) 
-							.show(); 
+					{
+						Toast.makeText(
+								MainActivity.this,
+								"പോയി നെറ്റ് കണക്റ്റ് ചെയ്യണം മിസ്റ്റർ",
+								Toast.LENGTH_SHORT)
+							.show();
 					} 
-				}); 
-
+				});
 		RequestQueue requestQueue = Volley.newRequestQueue(this);
 		requestQueue.add(request); 
 	} 

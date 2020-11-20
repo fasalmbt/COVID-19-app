@@ -41,11 +41,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/corner"
             android:text="0"
             android:id="@+id/countries"
             android:textAlignment="center"
             android:textSize="25sp"
-            android:textColor="#ff1a1a"
+            android:textColor="#FB7575"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
             android:gravity="center_horizontal" />
@@ -64,11 +65,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/corner"
             android:text="0"
             android:id="@+id/total_cases"
             android:textAlignment="center"
             android:textSize="25sp"
-            android:textColor="#ff1a1a"
+            android:textColor="#FB7575"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
             android:gravity="center_horizontal" />
@@ -87,11 +89,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/corner"
             android:text="0"
             android:id="@+id/today_cases"
             android:textAlignment="center"
             android:textSize="25sp"
-            android:textColor="#ff1a1a"
+            android:textColor="#FB7575"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
             android:gravity="center_horizontal" />
@@ -109,11 +112,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/corner"
             android:text="0"
             android:id="@+id/recovered"
             android:textAlignment="center"
             android:textSize="25sp"
-            android:textColor="#ff1a1a"
+            android:textColor="#FB7575"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
             android:gravity="center_horizontal" />
@@ -132,11 +136,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/corner"
             android:text="0"
             android:id="@+id/today_recovered"
             android:textAlignment="center"
             android:textSize="25sp"
-            android:textColor="#ff1a1a"
+            android:textColor="#FB7575"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
             android:gravity="center_horizontal" />
@@ -155,11 +160,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/corner"
             android:text="0"
             android:id="@+id/deaths"
             android:textAlignment="center"
             android:textSize="25sp"
-            android:textColor="#ff1a1a"
+            android:textColor="#FB7575"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
             android:gravity="center_horizontal" />
@@ -178,11 +184,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/corner"
             android:text="0"
             android:id="@+id/today_deaths"
             android:textAlignment="center"
             android:textSize="25sp"
-            android:textColor="#ff1a1a"
+            android:textColor="#FB7575"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
             android:gravity="center_horizontal" />
@@ -201,11 +208,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/corner"
             android:text="0"
             android:id="@+id/active"
             android:textAlignment="center"
             android:textSize="25sp"
-            android:textColor="#ff1a1a"
+            android:textColor="#FB7575"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
             android:gravity="center_horizontal" />
@@ -224,14 +232,16 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/corner"
             android:text="0"
             android:id="@+id/critical"
             android:textAlignment="center"
             android:textSize="25sp"
-            android:textColor="#ff1a1a"
+            android:textColor="#FB7575"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
             android:gravity="center_horizontal" />
+
 
 
     </LinearLayout>
